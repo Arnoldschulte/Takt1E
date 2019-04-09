@@ -18,16 +18,16 @@ public class TAKT1E_Avond2 {
 
       while (loopTeller < geboortejaar.length && geboortejaar[loopTeller] == hulpjaar) {
         if (geslacht[loopTeller].equalsIgnoreCase("M")) {
-            mannenPerJaar++;
-            totaalMannen++;
+          mannenPerJaar++;
+          totaalMannen++;
         } else if (geslacht[loopTeller].equalsIgnoreCase("V")) {
-            vrouwenPerJaar++;
-            totaalVrouwen++;
-          } else {
+          vrouwenPerJaar++;
+          totaalVrouwen++;
+        } else {
           System.out.println("Onbekend geslacht: " + geboortejaar[loopTeller]);
-          }
-        loopTeller++;
         }
+        loopTeller++;
+      }
       System.out.println("Aantal mannen: " + mannenPerJaar);
       System.out.println("Aantal vrouwen: " + vrouwenPerJaar);
     }
