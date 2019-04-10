@@ -16,7 +16,6 @@ public class TAKT1E_Avond3 {
 
     String test = leesVeld(persoon[0],"Geboortejaar");
     System.out.println(test);
-
     System.out.println(leesVeld(persoon[1],"Test"));
   }
 

@@ -99,7 +99,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554933061521" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554936829734" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -128,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Opdracht316">
+  <component name="RunManager" selected="Application.TAKT1E_Avond3">
     <configuration name="Opdracht316" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Opdracht316" />
       <module name="TAKT1E" />
@@ -159,10 +159,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Opdracht316" />
-        <item itemvalue="Application.TAKT1E_Avond2" />
         <item itemvalue="Application.TAKT1E_Avond3" />
+        <item itemvalue="Application.TAKT1E_Avond2" />
         <item itemvalue="Application.Opgave_2_15" />
+        <item itemvalue="Application.Opdracht316" />
         <item itemvalue="Application.TAKT1E_Avond3" />
       </list>
     </recent_temporary>
