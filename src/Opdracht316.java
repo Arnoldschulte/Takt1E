@@ -1,26 +1,5 @@
 public class Opdracht316 {
-  //
-// Het programma moet hetzelfde resultaat geven als het programma uit de vorige opgave.
-//
-// In het kort:
-// 1) op het beeldscherm per regel tonen van het geboortejaar
-// met het bijbehorend aantal mannen en aantal vrouwen
-// 2) vervolgens afsluiten met een regel waarin
-// het totaal aantal personen, totaal aantal mannen en totaal aantal vrouwen staat vermeld.
-//
-// Maak gebruik van de array persoon en initieer deze met de opgegeven waarden
-// zoals die zijn vermeld in eerder vermelde tabel.
-//
-// Zoek uit wat de functie split voor je kan doen
-//
-// In het select-instructieblok mogen naast de else-tak
-// slechts twee case-takken worden opgenomen
-// waarbij elke case slechts gebruik maakt van één constante waarde.
-//
-//  Voor het initiëren van de variabelen geboortejaar en geslacht
-//  wordt de functie leesVeld gebruikt.
-//
-//  Inputvariabelen van deze functie zijn ondermeer de array persoon en de index.
+
   public static void main(String[] args) {
 
     String[] persoon = new String[10];
@@ -42,41 +21,51 @@ public class Opdracht316 {
     int maximum = persoon.length;
 
     while (counter < maximum) {
+      int geboortejaar = leesVeldGeboortejaar(persoon, counter);
+      System.out.println("Het geboortejaar is: " + geboortejaar);
+      int hulpjaar = geboortejaar;
 
       int aantalMannen = 0;
       int aantalVrouwen = 0;
       int rest = 0;
 
-      while (counter < maximum && geboortejaar == hulpjaar) {
-        switch (geslacht.toUpperCase()) {
+      while (counter < maximum && leesVeldGeboortejaar(persoon, counter) == hulpjaar) {
+        switch (leesVeldGeslacht(persoon, counter).toUpperCase()) {
           case "M":
             aantalMannen++;
             totaalMannen++;
-            counter++;
             break;
           case "V":
             aantalVrouwen++;
             totaalVrouwen++;
-            counter++;
             break;
           default:
             rest++;
             totaalRest++;
-            counter++;
             break;
         }
+        counter++;
+        }
+      System.out.println("Aantal mannen: " + aantalMannen);
+      System.out.println("Aantal vrouwen: " + aantalVrouwen);
+      System.out.println("Aantal onbekend: " + rest);
       }
-      System.out.println("testmannen" + aantalVrouwen);
+    int totaalPersonen = totaalMannen + totaalVrouwen + totaalRest;
+    System.out.println("--- Totalen ---");
+    System.out.println("Totaal aantal mannen: " + totaalMannen);
+    System.out.println("Totaal aantal vrouwen: " + totaalVrouwen);
+    System.out.println("Totaal aantal onbekend: " + totaalRest);
+    System.out.println("---------------");
+    System.out.println("Totaal aantal personen: " + totaalPersonen);
     }
+
+  public static int leesVeldGeboortejaar(String[] persoon, int index) {
+    String[] splitsRegel = persoon[index].split(";");
+    return Integer.parseInt(splitsRegel[0].substring(6));
   }
 
-  public static String[] leesVeld(String[] persoon, int index) {
-    //      splits regel, bepaal jaar en geslacht
+  public static String leesVeldGeslacht(String[] persoon, int index) {
     String[] splitsRegel = persoon[index].split(";");
-    String geboortedatumRegel = splitsRegel[0];
-    String geboortejaar = geboortedatumRegel.substring(6);
-    String geslacht = splitsRegel[1];
-    String[] geboortejaarGeslacht = {geboortejaar, geslacht};
-    return geboortejaarGeslacht;
+    return splitsRegel[1];
   }
 }
