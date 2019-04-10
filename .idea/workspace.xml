@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9364855-2790-4fed-bfd3-3cb560061e9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/TAKT1E 3.16 Opgave String manipulatie.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/TAKT1E 3.16 Opgave String manipulatie.graphml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/TAKT1E 3.16 Opgave String manipulatie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Opdracht316.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TAKT1E_Avond2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TAKT1E_Avond2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,18 +17,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TAKT1E_Avond2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="245">
+              <caret line="18" column="88" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="88" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/TAKT1E 2.15 Opgave Programma ontwerp besturing.png">
-          <provider selected="true" editor-type-id="images" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Opdracht316.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -41,7 +48,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="opgave-215" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -51,6 +58,7 @@
         <option value="$PROJECT_DIR$/src/Opgave_2_15.java" />
         <option value="$PROJECT_DIR$/src/TAKT1E_Avond3.java" />
         <option value="$PROJECT_DIR$/src/TAKT1E_Avond2.java" />
+        <option value="$PROJECT_DIR$/src/Opdracht316.java" />
       </list>
     </option>
   </component>
@@ -65,7 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,14 +95,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554832973383" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554848315689" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -104,10 +112,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Temp\TAKT1E\resources" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Temp\TAKT1E\resources" />
     </key>
   </component>
@@ -123,7 +131,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TAKT1E_Avond3">
+  <component name="RunManager" selected="Application.Opdracht316">
+    <configuration name="Opdracht316" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Opdracht316" />
+      <module name="TAKT1E" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Opgave_2_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Opgave_2_15" />
       <module name="TAKT1E" />
@@ -147,10 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Opdracht316" />
         <item itemvalue="Application.TAKT1E_Avond3" />
         <item itemvalue="Application.TAKT1E_Avond2" />
         <item itemvalue="Application.Opgave_2_15" />
-        <item itemvalue="Application.TAKT1E_Avond2" />
+        <item itemvalue="Application.TAKT1E_Avond3" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +182,8 @@
       <updated>1554579487152</updated>
       <workItem from="1554579492345" duration="16673000" />
       <workItem from="1554677885760" duration="2854000" />
-      <workItem from="1554826193762" duration="6268000" />
+      <workItem from="1554826193762" duration="7253000" />
+      <workItem from="1554842161421" duration="6154000" />
     </task>
     <task id="LOCAL-00001" summary="Clean up">
       <created>1554677135316</created>
@@ -182,15 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554832776719</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Verbetering na bespreking opdracht (2)">
+      <created>1554833549417</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554833549417</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25795000" />
+    <option name="totallyTimeSpent" value="32934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="952" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -198,18 +221,18 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Learn" order="4" weight="0.3298969" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.12852234" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.12852234" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32883435" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="5" visible="true" weight="0.24209246" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="5" visible="true" weight="0.243309" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32603407" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.21167883" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.20924574" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.39659366" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -267,26 +290,28 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Clean up" />
     <MESSAGE value="Verbetering na bespreking opdracht" />
-    <option name="LAST_COMMIT_MESSAGE" value="Verbetering na bespreking opdracht" />
+    <MESSAGE value="Verbetering na bespreking opdracht (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Verbetering na bespreking opdracht (2)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Opgave_2_15.java" />
+    <entry file="file://$PROJECT_DIR$/src/TAKT1E_Avond3.java" />
     <entry file="file://$PROJECT_DIR$/resources/TAKT1E 2.15 Opgave Programma ontwerp besturing.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TAKT1E_Avond3.java">
+    <entry file="file://$PROJECT_DIR$/src/TAKT1E_Avond2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="245">
+          <caret line="18" column="88" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TAKT1E_Avond2.java">
+    <entry file="file://$PROJECT_DIR$/src/Opdracht316.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="289">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
