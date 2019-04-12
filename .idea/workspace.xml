@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f9364855-2790-4fed-bfd3-3cb560061e9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht316.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TAKT1E_Avond3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TAKT1E_Avond3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/" />
+    <ignored path="out/" />
+    <ignored path="TAKT1E.iml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TAKT1E_Avond3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -111,14 +112,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555105103215" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555105837616" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TAKT1E.iml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -193,7 +195,7 @@
       <workItem from="1554677885760" duration="2854000" />
       <workItem from="1554826193762" duration="7253000" />
       <workItem from="1554842161421" duration="15087000" />
-      <workItem from="1555103708507" duration="1776000" />
+      <workItem from="1555103708507" duration="2096000" />
     </task>
     <task id="LOCAL-00001" summary="Clean up">
       <created>1554677135316</created>
@@ -230,11 +232,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554936885488</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Opdracht 316 voor avond 3 uitgebreid">
+      <created>1555105540081</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555105540081</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55551000" />
+    <option name="totallyTimeSpent" value="55871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="952" extended-state="6" />
@@ -252,7 +261,7 @@
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32846716" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="5" visible="true" weight="0.243309" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="5" visible="true" weight="0.24452555" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32603407" />
       <window_info anchor="bottom" id="Find" order="8" />
@@ -283,7 +292,8 @@
     <MESSAGE value="Verbetering na bespreking opdracht (2)" />
     <MESSAGE value="opzet opdracht 315" />
     <MESSAGE value="Opzet 1 leesveld methode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opzet 1 leesveld methode" />
+    <MESSAGE value="Opdracht 316 voor avond 3 uitgebreid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opdracht 316 voor avond 3 uitgebreid" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -315,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TAKT1E_Avond3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
