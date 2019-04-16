@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9364855-2790-4fed-bfd3-3cb560061e9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Opdracht_316.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Hint_Opgave_2.15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TAKT1E 2.15 Opgave Programma ontwerp besturing.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TAKT1E 2.15 Opgave Programma ontwerp besturing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TAKT1E 3.16 Opgave String manipulatie.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TAKT1E 3.16 Opgave String manipulatie.graphml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TAKT1E 3.16 Opgave String manipulatie.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/" />
@@ -35,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Opdracht_316.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+            <state relative-caret-position="-816">
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -111,7 +104,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555441569150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555442353777" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/TAKT1E.iml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -150,8 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Opdracht_215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Opdracht_215" />
+      <module name="TAKT1E" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Opdracht_316" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Opdracht_316" />
+      <module name="TAKT1E" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Opdracht_316_uitgebreid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Opdracht_316_uitgebreid" />
       <module name="TAKT1E" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,26 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TAKT1E_Avond2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TAKT1E_Avond2" />
-      <module name="TAKT1E" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TAKT1E_Avond3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TAKT1E_Avond3" />
-      <module name="TAKT1E" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Opdracht_316" />
-        <item itemvalue="Application.TAKT1E_Avond3" />
+        <item itemvalue="Application.Opdracht_316_uitgebreid" />
         <item itemvalue="Application.Opdracht316" />
-        <item itemvalue="Application.TAKT1E_Avond2" />
+        <item itemvalue="Application.Opdracht_215" />
         <item itemvalue="Application.Opgave_2_15" />
       </list>
     </recent_temporary>
@@ -204,7 +197,7 @@
       <workItem from="1554842161421" duration="15087000" />
       <workItem from="1555103708507" duration="2096000" />
       <workItem from="1555106544208" duration="1949000" />
-      <workItem from="1555441165285" duration="395000" />
+      <workItem from="1555441165285" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="Clean up">
       <created>1554677135316</created>
@@ -248,15 +241,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555105540081</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Opdracht 316 basic toegevoegd">
+      <created>1555441602050</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555441602050</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58215000" />
+    <option name="totallyTimeSpent" value="58999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="952" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -271,11 +270,11 @@
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32846716" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" visible="true" weight="0.24452555" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.24452555" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32603407" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.2785888" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.2785888" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3248175" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -303,7 +302,8 @@
     <MESSAGE value="opzet opdracht 315" />
     <MESSAGE value="Opzet 1 leesveld methode" />
     <MESSAGE value="Opdracht 316 voor avond 3 uitgebreid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opdracht 316 voor avond 3 uitgebreid" />
+    <MESSAGE value="Opdracht 316 basic toegevoegd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opdracht 316 basic toegevoegd" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -336,8 +336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Opdracht_316.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+        <state relative-caret-position="-816">
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>

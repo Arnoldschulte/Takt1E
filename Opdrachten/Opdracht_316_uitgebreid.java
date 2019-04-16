@@ -1,4 +1,4 @@
-public class TAKT1E_Avond3 {
+public class Opdracht_316_uitgebreid {
 
   public static final String VOORNAAM = "Voornaam";
   public static final String VOORVOEGSEL = "Voorvoegsel";
