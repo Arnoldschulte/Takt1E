@@ -61,7 +61,6 @@ public class Opdracht_316 {
 
   public static String leesVeld(String[] persoon, int index, String persoonsData) {
     String[] splitsRegel = persoon[index].split(";", -1);
-    String[] achternaamVoorvoegsel = splitsRegel[2].split(",", -1);
 
     String geboortejaar = splitsRegel[0].substring(6);
     String geslacht = splitsRegel[1].toUpperCase();
