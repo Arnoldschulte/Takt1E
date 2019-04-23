@@ -22,7 +22,7 @@ public class Auto {
   }
 
   public void verlaagActueleSnelheid(int waarde) {
-    setActueleSnelheid(this.actueleSnelheid - waarde);
+    this.actueleSnelheid = this.actueleSnelheid - waarde;
     System.out.println("De actuele snelheid is verlaagd naar " + this.actueleSnelheid + " km/h");
   }
 }
