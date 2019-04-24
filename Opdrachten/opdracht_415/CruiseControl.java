@@ -8,5 +8,7 @@ public class CruiseControl {
     while (mijnAuto.getActueleSnelheid() > mijnAuto.getGewensteSnelheid()) {
       mijnAuto.verlaagActueleSnelheid(1);
     }
+
+    Auto mijnAuto2 = new Auto(150);
   }
 }

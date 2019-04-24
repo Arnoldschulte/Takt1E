@@ -5,6 +5,19 @@ public class Auto {
   private int actueleSnelheid = 130;
   private int gewensteSnelheid = 0;
 
+  public Auto() {
+    //    default constructor
+  }
+
+  public Auto(int actueleSnelheid) {
+    this.actueleSnelheid = actueleSnelheid;
+  }
+
+  public Auto(int actueleSnelheid, int gewensteSnelheid) {
+    this.actueleSnelheid = actueleSnelheid;
+    this.gewensteSnelheid = gewensteSnelheid;
+  }
+
   public int getActueleSnelheid() {
     return actueleSnelheid;
   }
